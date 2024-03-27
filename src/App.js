@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './screen/Homepage';
+import LandingScreen from './components/LandingScreen';
 
 function App() {
   return (
     <div className="App">
+      <LandingScreen />
       
-      <Homepage />
     </div>
   );
 }
